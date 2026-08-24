@@ -1,30 +1,38 @@
 # RTClib
 
-Arduino sketch or library from the Arduino archive.
+A fork of Jeelab's fantastic RTC library. Works with DS1307, DS3231, PCF8523, PCF8563 on multiple architectures Original author: Adafruit. This is Dave Robinson's working copy from the Arduino `libraries` tree. Version recorded in `library.properties`: 2.0.2. Upstream: <https://github.com/adafruit/RTClib>.
 
-## Contents
+**Language:** C++ / Arduino  
+**Target:** Arduino (*)  
+**Output:** Arduino library
 
-- `examples/ds1307/ds1307.ino`
-- `examples/pcf8523Countdown/pcf8523Countdown.ino`
-- `examples/timestamp/timestamp.ino`
-- `examples/DS3231_alarm/DS3231_alarm.ino`
-- `examples/customWire_DS3231onSAMD21/customWire_DS3231onSAMD21.ino`
-- `examples/interrupts1Hz/interrupts1Hz.ino`
-- `examples/pcf8523/pcf8523.ino`
-- `examples/toString/toString.ino`
-- `examples/pcf8563_interrupt/pcf8563_interrupt.ino`
-- `examples/ds3231/ds3231.ino`
-- `examples/softrtc/softrtc.ino`
-- `examples/ds1307nvram/ds1307nvram.ino`
-- `examples/pcf8563/pcf8563.ino`
-- `examples/datecalc/datecalc.ino`
-- `examples/ds1307SqwPin/ds1307SqwPin.ino`
-- `library.properties`
+## Solution structure
+
+| Project | Language | Type | Purpose |
+|---------|----------|------|---------|
+| `RTClib` | C++ / Arduino | library | A fork of Jeelab's fantastic RTC library |
+| `DS3231_alarm` | C++ / Arduino | example sketch | `examples/DS3231_alarm/DS3231_alarm.ino` |
+| `customWire_DS3231onSAMD21` | C++ / Arduino | example sketch | `examples/customWire_DS3231onSAMD21/customWire_DS3231onSAMD21.ino` |
+| `datecalc` | C++ / Arduino | example sketch | `examples/datecalc/datecalc.ino` |
+| `ds1307` | C++ / Arduino | example sketch | `examples/ds1307/ds1307.ino` |
+| `ds1307SqwPin` | C++ / Arduino | example sketch | `examples/ds1307SqwPin/ds1307SqwPin.ino` |
+| `ds1307nvram` | C++ / Arduino | example sketch | `examples/ds1307nvram/ds1307nvram.ino` |
+| `ds3231` | C++ / Arduino | example sketch | `examples/ds3231/ds3231.ino` |
+| `interrupts1Hz` | C++ / Arduino | example sketch | `examples/interrupts1Hz/interrupts1Hz.ino` |
+
+## How to open
+
+Install this folder as an Arduino library (Sketch → Include Library → Add .ZIP Library, or copy into `libraries/RTClib`). Open any `examples/*.ino` from the Arduino IDE.
 
 ## Attribution and provenance
 
-- No third-party source-code attribution markers were identified in assembly/package metadata.
+- **Original author / maintainer:** Adafruit
+- **library.properties name:** RTClib
+- **Version:** 2.0.2
+- **Upstream URL:** <https://github.com/adafruit/RTClib>
+- **Category:** Timing
+- This repository is Dave Robinson's working copy for catalogue/reference; authorship stays with the original authors.
 
 ## License
 
-MIT. See `LICENSE`.
+Mit terms recorded in `license.txt`. This repository does not claim authorship of the upstream library. See `THIRD_PARTY_NOTICES.md`. The `LICENSE` file added at import is a VaderConsulting MIT wrapper and does not replace upstream terms.
