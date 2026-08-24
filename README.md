@@ -2,6 +2,7 @@
 
 A fork of Jeelab's fantastic RTC library. Works with DS1307, DS3231, PCF8523, PCF8563 on multiple architectures Original author: Adafruit. This is Dave Robinson's working copy from the Arduino `libraries` tree. Version recorded in `library.properties`: 2.0.2. Upstream: <https://github.com/adafruit/RTClib>.
 
+**Source last updated:** 2021-12-21  
 **Language:** C++ / Arduino  
 **Target:** Arduino (*)  
 **Output:** Arduino library
