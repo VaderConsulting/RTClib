@@ -25,6 +25,10 @@ A fork of Jeelab's fantastic RTC library. Works with DS1307, DS3231, PCF8523, PC
 
 Install this folder as an Arduino library (Sketch → Include Library → Add .ZIP Library, or copy into `libraries/RTClib`). Open any `examples/*.ino` from the Arduino IDE.
 
+## Requirements
+
+- Arduino IDE
+
 ## Attribution and provenance
 
 - **Original author / maintainer:** Adafruit
