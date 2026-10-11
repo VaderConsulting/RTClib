@@ -6,4 +6,4 @@ This tree is a working copy of **RTClib** by **Adafruit**.
 - Upstream: https://github.com/adafruit/RTClib
 - Version in this copy: 2.0.2
 - License hint: MIT terms recorded in `license.txt`
-- VaderConsulting / Dave Robinson did not author the third-party library code.
+- Vader Consulting / Dave Robinson did not author the third-party library code.
